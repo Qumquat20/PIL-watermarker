@@ -23,7 +23,7 @@ def get_total(filesDir):
 def main():
     c = 0
 
-    markPath = "C:/Users/jenni/OneDrive/Desktop/MARK/bruh.png"
+    markPath = "./bruh.png"
     filesDir = sys.argv[1]
 
     if os.path.exists(filesDir+"/Marked"):
